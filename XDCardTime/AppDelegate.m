@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "XDMainViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +18,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor blackColor];
+    XDMainViewController *mainview = [[XDMainViewController alloc]init];
+    [self.window setRootViewController:mainview];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

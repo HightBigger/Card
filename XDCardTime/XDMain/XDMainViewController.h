@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XDMainViewController.h
 //  XDCardTime
 //
 //  Created by chenyixing on 2017/12/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XDMainViewController : UIViewController
 
 @end
-

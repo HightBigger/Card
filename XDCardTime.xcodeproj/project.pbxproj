@@ -10,13 +10,15 @@
 		5C8B318B20761D24E223E857 /* libPods-XDCardTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D9D2499050491385EC6ADE /* libPods-XDCardTime.a */; };
 		6DE9D34857CBC82227363F95 /* libPods-XDCardTimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E08D2460D44AE6AD4F716A /* libPods-XDCardTimeTests.a */; };
 		AD3656DF1FECA32900C40085 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3656DE1FECA32900C40085 /* AppDelegate.m */; };
-		AD3656E21FECA32900C40085 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3656E11FECA32900C40085 /* ViewController.m */; };
-		AD3656E51FECA32900C40085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3656E31FECA32900C40085 /* Main.storyboard */; };
 		AD3656E71FECA32900C40085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3656E61FECA32900C40085 /* Assets.xcassets */; };
 		AD3656EA1FECA32900C40085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3656E81FECA32900C40085 /* LaunchScreen.storyboard */; };
 		AD3656ED1FECA32900C40085 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3656EC1FECA32900C40085 /* main.m */; };
 		AD3656F71FECA32900C40085 /* XDCardTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3656F61FECA32900C40085 /* XDCardTimeTests.m */; };
 		AD3657021FECA32900C40085 /* XDCardTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3657011FECA32900C40085 /* XDCardTimeUITests.m */; };
+		AD3657141FECDADB00C40085 /* XDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3657131FECDADB00C40085 /* XDMainViewController.m */; };
+		AD3657181FECDF7100C40085 /* XDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3657171FECDF7100C40085 /* XDUtil.m */; };
+		AD36571C1FECE3C200C40085 /* XDGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = AD36571B1FECE3C200C40085 /* XDGlobal.m */; };
+		AD3657221FED032C00C40085 /* TouchDownGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3657211FED032C00C40085 /* TouchDownGestureRecognizer.m */; };
 		E5D96151B6197CEB9572E78E /* libPods-XDCardTimeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 257F6F13C77B1EAA3669F636 /* libPods-XDCardTimeUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -49,9 +51,6 @@
 		AD3656DA1FECA32900C40085 /* XDCardTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDCardTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3656DD1FECA32900C40085 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD3656DE1FECA32900C40085 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AD3656E01FECA32900C40085 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AD3656E11FECA32900C40085 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AD3656E41FECA32900C40085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD3656E61FECA32900C40085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD3656E91FECA32900C40085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD3656EB1FECA32900C40085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +61,16 @@
 		AD3656FD1FECA32900C40085 /* XDCardTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDCardTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3657011FECA32900C40085 /* XDCardTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDCardTimeUITests.m; sourceTree = "<group>"; };
 		AD3657031FECA32900C40085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3657121FECDADB00C40085 /* XDMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDMainViewController.h; sourceTree = "<group>"; };
+		AD3657131FECDADB00C40085 /* XDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDMainViewController.m; sourceTree = "<group>"; };
+		AD3657161FECDF7100C40085 /* XDUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDUtil.h; sourceTree = "<group>"; };
+		AD3657171FECDF7100C40085 /* XDUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDUtil.m; sourceTree = "<group>"; };
+		AD36571A1FECE3C200C40085 /* XDGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDGlobal.h; sourceTree = "<group>"; };
+		AD36571B1FECE3C200C40085 /* XDGlobal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDGlobal.m; sourceTree = "<group>"; };
+		AD36571D1FECE42600C40085 /* XDGlobalSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDGlobalSetting.h; sourceTree = "<group>"; };
+		AD36571E1FECE65500C40085 /* XDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDPrefixHeader.pch; sourceTree = "<group>"; };
+		AD3657201FED032C00C40085 /* TouchDownGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchDownGestureRecognizer.h; sourceTree = "<group>"; };
+		AD3657211FED032C00C40085 /* TouchDownGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchDownGestureRecognizer.m; sourceTree = "<group>"; };
 		E6D9D2499050491385EC6ADE /* libPods-XDCardTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XDCardTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,13 +139,9 @@
 			children = (
 				AD3656DD1FECA32900C40085 /* AppDelegate.h */,
 				AD3656DE1FECA32900C40085 /* AppDelegate.m */,
-				AD3656E01FECA32900C40085 /* ViewController.h */,
-				AD3656E11FECA32900C40085 /* ViewController.m */,
-				AD3656E31FECA32900C40085 /* Main.storyboard */,
-				AD3656E61FECA32900C40085 /* Assets.xcassets */,
-				AD3656E81FECA32900C40085 /* LaunchScreen.storyboard */,
-				AD3656EB1FECA32900C40085 /* Info.plist */,
-				AD3656EC1FECA32900C40085 /* main.m */,
+				AD3657101FECDA1A00C40085 /* XDMain */,
+				AD3657151FECDDA200C40085 /* XDUtil */,
+				AD3657111FECDA8000C40085 /* XDSuportingFiles */,
 			);
 			path = XDCardTime;
 			sourceTree = "<group>";
@@ -157,6 +162,49 @@
 				AD3657031FECA32900C40085 /* Info.plist */,
 			);
 			path = XDCardTimeUITests;
+			sourceTree = "<group>";
+		};
+		AD3657101FECDA1A00C40085 /* XDMain */ = {
+			isa = PBXGroup;
+			children = (
+				AD3657121FECDADB00C40085 /* XDMainViewController.h */,
+				AD3657131FECDADB00C40085 /* XDMainViewController.m */,
+			);
+			path = XDMain;
+			sourceTree = "<group>";
+		};
+		AD3657111FECDA8000C40085 /* XDSuportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AD3656E61FECA32900C40085 /* Assets.xcassets */,
+				AD3656E81FECA32900C40085 /* LaunchScreen.storyboard */,
+				AD3656EB1FECA32900C40085 /* Info.plist */,
+				AD3656EC1FECA32900C40085 /* main.m */,
+				AD36571E1FECE65500C40085 /* XDPrefixHeader.pch */,
+			);
+			path = XDSuportingFiles;
+			sourceTree = "<group>";
+		};
+		AD3657151FECDDA200C40085 /* XDUtil */ = {
+			isa = PBXGroup;
+			children = (
+				AD3657161FECDF7100C40085 /* XDUtil.h */,
+				AD3657171FECDF7100C40085 /* XDUtil.m */,
+				AD36571A1FECE3C200C40085 /* XDGlobal.h */,
+				AD36571B1FECE3C200C40085 /* XDGlobal.m */,
+				AD36571D1FECE42600C40085 /* XDGlobalSetting.h */,
+				AD36571F1FED032C00C40085 /* TouchDownGestureRecognizer */,
+			);
+			path = XDUtil;
+			sourceTree = "<group>";
+		};
+		AD36571F1FED032C00C40085 /* TouchDownGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				AD3657201FED032C00C40085 /* TouchDownGestureRecognizer.h */,
+				AD3657211FED032C00C40085 /* TouchDownGestureRecognizer.m */,
+			);
+			path = TouchDownGestureRecognizer;
 			sourceTree = "<group>";
 		};
 		DABB064C354D871E64DEA1AC /* Pods */ = {
@@ -289,7 +337,6 @@
 			files = (
 				AD3656EA1FECA32900C40085 /* LaunchScreen.storyboard in Resources */,
 				AD3656E71FECA32900C40085 /* Assets.xcassets in Resources */,
-				AD3656E51FECA32900C40085 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,9 +508,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD3656E21FECA32900C40085 /* ViewController.m in Sources */,
+				AD3657141FECDADB00C40085 /* XDMainViewController.m in Sources */,
+				AD3657181FECDF7100C40085 /* XDUtil.m in Sources */,
 				AD3656ED1FECA32900C40085 /* main.m in Sources */,
+				AD36571C1FECE3C200C40085 /* XDGlobal.m in Sources */,
 				AD3656DF1FECA32900C40085 /* AppDelegate.m in Sources */,
+				AD3657221FED032C00C40085 /* TouchDownGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,14 +549,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD3656E31FECA32900C40085 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD3656E41FECA32900C40085 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AD3656E81FECA32900C40085 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -629,12 +671,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = XDCardTime/Info.plist;
+				GCC_PREFIX_HEADER = XDCardTime/XDSuportingFiles/XDPrefixHeader.pch;
+				INFOPLIST_FILE = XDCardTime/XDSuportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.xiaoda.XDCardTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -645,12 +689,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = XDCardTime/Info.plist;
+				GCC_PREFIX_HEADER = XDCardTime/XDSuportingFiles/XDPrefixHeader.pch;
+				INFOPLIST_FILE = XDCardTime/XDSuportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.xiaoda.XDCardTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
